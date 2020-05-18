@@ -1,0 +1,132 @@
+html{
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    padding-right: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: #fff;
+    height: 60px;
+    align-items: center;
+}
+
+#top-left {
+    padding: 30px;
+}
+
+#top-right {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#top-right-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.menu-button {
+    align-items: center;
+    margin-right: 5px;
+}
+
+.profile-pic {
+    margin: 10px;
+    border-radius: 50%;
+}
+
+
+#body {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#logo {
+    margin: 209px auto auto auto;
+    width:  272px;   
+}
+
+#search-bar {
+  margin: auto;
+  width: 575px;
+}
+
+.search {
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 25px;
+    width: 575px;
+    margin-top: 30px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 34px;
+    padding-left: 34px;
+}
+
+.search:hover {
+    box-shadow: 0 1px 5px 0 rgb(221, 221, 221);
+}
+
+#search-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.click-it {
+    margin: 10px;
+    padding: 10px 15px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    border-radius: 4px;
+}
+
+.click-it:hover {
+    margin: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgb(221, 221, 221);
+}
+
+#footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    background-color: #eeeeee;
+    height: 40px;
+    align-items: center;
+    border-top: 1px solid #ddd;
+}
+
+a.bottom {
+    font-size: 14px;
+    color: #666;
+}
+
+#bottom-left {
+    padding: 30px;
+}
